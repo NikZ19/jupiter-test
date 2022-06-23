@@ -1,5 +1,2 @@
-In the project directory, you can run:
-
-### `npm start`
-
-
+Тестовое задание для компании ООО Юпитер.
+### [Ссылка на GH Pages](https://nikz19.github.io/jupiter-test/)
