@@ -1,0 +1,80 @@
+.header {
+  background-color: #28293E;
+  color: #FFF;
+  padding: 16px 0;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+  flex-basis: 514px;
+}
+
+.header__nav-list {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  list-style: none;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+
+.header__nav-item {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.header__button {
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #FFF;
+  border: 1px solid rgb(255 255 255 / 0.29);
+  border-radius: 6px;
+  padding: 16px 35px;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 1040px) {
+  .header {
+    padding-top: 12px;
+  }
+  .header__container {
+    justify-content: center;
+  }
+
+  .header__button {
+    display: none;
+  }
+
+  .header__nav {
+    display: none;
+  }
+}
+
+.logo {
+  display: flex;
+  align-items: flex-end;
+  height: 42px;
+}
+
+.logo__image {
+  margin-right: 15px;
+  width: 45px;
+}
+
+.logo__name {
+  font-family: 'Epilogue';
+  font-weight: 700;
+  font-size: 24px;
+  color: #FFF;
+  padding-bottom: 6px;
+}

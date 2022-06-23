@@ -1,0 +1,31 @@
+@import url(./fonts/fonts.css);
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.root {
+  font-family: 'Epilogue', Arial, Helvetica, sans-serif;
+  background-color: #fff;
+  color: #000;
+}
+
+.root__container {
+  margin: 0 auto;
+  max-width: 1440px;
+  width: calc(100% - 300px);
+}
+
+@media screen and (max-width: 1440px) {
+  .root__container {
+    width: calc(100% - 270px);
+  }
+}
+
+@media screen and (max-width: 1040px) {
+  .root__container {
+    width: calc(100% - 46px);
+  }
+}
